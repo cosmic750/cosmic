@@ -16,9 +16,6 @@ back_arrow = pygame.image.load('d.png').convert_alpha()
 ba_h = pygame.image.load('d1.png').convert_alpha()
 nxt_pg = pygame.image.load('e.png').convert_alpha()
 nxt_pg_h = pygame.image.load('e1.png').convert_alpha()
-large_triangle = pygame.image.load('large_triangle.png').convert_alpha()
-hexagon = pygame.image.load('hexagon.png').convert_alpha()
-diamond = pygame.image.load('purple_r.png').convert_alpha()
 shopping_icon = pygame.image.load('shopping icon.png').convert_alpha()
 shopping_icon_h = pygame.image.load('shopping icon hover.png').convert_alpha()
 coin = pygame.image.load('coin.png').convert_alpha()
@@ -3952,7 +3949,6 @@ while running:
                 spawn_powerup = True
             if elapsed_time1 == 7:
                 spawn_coin = True
-                ig_l.append('InGr')
             if elapsed_time1 < 10:
                 stage1 = True
             if 10 <= elapsed_time1 < 30:
